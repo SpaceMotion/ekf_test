@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star wars fun</title>
+	<link rel='stylesheet' href='css/styles.css'/>
+</head>
+<body>
+	<div id='app'>
+		<h1 class='main-header'>Star wars fun</h1>
+		<selector class='selector' @mode-changed='handleModeChange' v-if='mode === "selector"'></selector>
+		<films v-else-if='mode === "films"' @mode-changed='handleModeChange'>films</films>
+		<characters v-else-if='mode === "characters"' @mode-changed='handleModeChange'></characters>
+	</div>
+	<script src="/bundle/bundle.js"></script>
+</body>
+</html>

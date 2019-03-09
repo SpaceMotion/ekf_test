@@ -1,0 +1,4 @@
+.selector__button_state_disabled.selector__button_state_disabled {
+	background-color: #ccc;
+	cursor: default;
+}

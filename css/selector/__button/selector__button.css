@@ -1,0 +1,15 @@
+@import url(./_state/selector__button_state_disabled.css);
+
+.selector__button {
+	padding: 10px 15px;
+	color: white;
+	background-color: #339FFF;
+	border-radius: 3px;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.selector__button:last-of-type {
+	margin-right: 0;
+}

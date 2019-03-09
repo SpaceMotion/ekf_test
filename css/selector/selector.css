@@ -1,0 +1,9 @@
+@import url(./__button/selector__button.css);
+@import url(./__buttons-block/selector__buttons-block.css);
+
+.selector {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
