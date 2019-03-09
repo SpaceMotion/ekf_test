@@ -5,5 +5,6 @@ To run in local environment enter following commands in your bash (Windows) or t
 <ol>
   <li>git clone https://github.com/SpaceMotion/ekf_test.git</li>
   <li>cd ekf_test</li>
+  <li>npm i</li>
   <li>npm run serve</li>
 </ol>
